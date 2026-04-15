@@ -4,6 +4,8 @@
 # dest_folder: path to the destination folder
 # text_file_names: list of text file names to be copied
 
+import os
+
 def copy_text_file_from_source_folder_2_dest_folder (source_folder, dest_folder, text_file_names):
 
  os.makedirs(dest_folder, exist_ok=True)

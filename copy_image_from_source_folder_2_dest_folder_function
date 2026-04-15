@@ -1,8 +1,8 @@
 # This function copies the images from the source folder to the destination folder
 
-# image_names: list of image filenames to be copied
 # source_folder: path to the source folder
 # dest_folder: path to the destination folder
+# image_names: list of image filenames to be copied
 
 def copy_image_from_source_folder_2_dest_folder (source_folder, dest_folder, image_names):
 

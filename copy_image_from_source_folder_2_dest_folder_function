@@ -2,13 +2,13 @@
 
 # source_folder: path to the source folder
 # dest_folder: path to the destination folder
-# image_names: list of image filenames to be copied
+# image_filenames: list of image filenames to be copied
 
-def copy_image_from_source_folder_2_dest_folder (source_folder, dest_folder, image_names):
+def copy_image_from_source_folder_2_dest_folder (source_folder, dest_folder, image_filenames):
 
  os.makedirs(dest_folder, exist_ok=True)
 
- for img in image_names:
+ for img in image_filenames:
     src_path = os.path.join(source_folder, img)
     dst_path = os.path.join(dest_folder, img)
 

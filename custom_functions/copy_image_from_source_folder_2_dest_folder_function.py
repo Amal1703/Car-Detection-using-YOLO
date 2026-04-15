@@ -5,6 +5,7 @@
 # image_filenames: list of image filenames to be copied
 
 import os
+import shutil
 
 def copy_image_from_source_folder_2_dest_folder (source_folder, dest_folder, image_filenames):
 

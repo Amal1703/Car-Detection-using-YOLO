@@ -4,6 +4,8 @@
 # dest_folder: path to the destination folder
 # image_filenames: list of image filenames to be copied
 
+import os
+
 def copy_image_from_source_folder_2_dest_folder (source_folder, dest_folder, image_filenames):
 
  os.makedirs(dest_folder, exist_ok=True)

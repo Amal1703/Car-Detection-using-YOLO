@@ -6,7 +6,7 @@ from pathlib import Path
 
 def search_subfolder_contain_files_txt (path_main_folder) :
 
- base_path = Path(chemin)
+ base_path = Path(path_main_folder)
 
  for subfolder in base_path.rglob("*"):
     if subfolder.is_dir():

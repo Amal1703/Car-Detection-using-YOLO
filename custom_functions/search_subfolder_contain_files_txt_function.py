@@ -2,6 +2,8 @@
 
 # path_main_folder: path of the main folder
 
+from pathlib import Path
+
 def search_subfolder_contain_files_txt (path_main_folder) :
 
  base_path = Path(chemin)

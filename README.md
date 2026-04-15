@@ -3,4 +3,6 @@
 1 objectif
 
 2 : data parler et min jibtha
-c
+
+
+3 : parler logiciel annotation et ismi et son site

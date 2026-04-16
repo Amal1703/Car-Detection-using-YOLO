@@ -11,5 +11,7 @@ Annotation: I used Make Sense software to annotate the images. You can find it a
   - A folder containing XML files
 
 Car_data folder: A folder that contains car images for the 3 classes
+
 Custom_function: Contains .py files which correspond to functions used in the main Jupyter notebook
+
 Car-Detection-using-YOLO.ipynb: The main Jupyter notebook file

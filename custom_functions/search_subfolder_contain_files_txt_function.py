@@ -14,7 +14,7 @@ def search_subfolder_contain_files_txt (path_main_folder) :
 
         # check: subfolder is not empty and all files are .txt
         if files and all(f.is_file() and f.suffix == ".txt" for f in files):
-            print(subfolder)
+           # print(subfolder)
             break
             
  return str(subfolder)

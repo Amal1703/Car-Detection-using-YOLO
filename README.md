@@ -15,3 +15,5 @@ Car_data folder: A folder that contains car images for the 3 classes
 Custom_function: Contains .py files which correspond to functions used in the main Jupyter notebook
 
 Car-Detection-using-YOLO.ipynb: The main Jupyter notebook file
+
+2012 Acura RL.mp4: It is a video containing a 2012 Acura RL Sedan car for testing the YOLO model
